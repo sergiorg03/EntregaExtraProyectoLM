@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sergio Rodríguez Geniz">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Los coches actuales">
+    <meta name="keywords" content="coches, velocidad, caballos, coches clásicos, clásicos, carreras, coches de carreras, V12, caja de cambios, manual, caballos, par">
+    <title>Alpine A522, Un inicio fiable.</title>    
+    <link rel ="icon" href="../icons/Icono_coche.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="Texto">
+    <header><h1>Cuestionario de gratitud</h1></header>
+
+    <main id="formulario">
+        <form name="Formulario" action="mailto:srodgen0910@g.educaand.es" method="post" target="_self" enctype="text/plain">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Ingrese su nombre: </label>
+                <input type="text" name="nombre" id="nombre" required autofocus><br><br>
+
+                <label for="apellidos">Ingrese sus apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos" required><br><br>
+
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad"><br><br>
+
+                <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento"><br><br>
+
+                <label for="tel">Ingrese su número de contacto: </label>
+                <input type="tel" name="tel" id="tel" required><br><br>
+
+                <label for="email">Ingrese su correo electrónico: </label>
+                <input type="email" name="email" id="email" maxlength="50" required><br><br>
+
+                <label for="Contraseña">Contraseña: </label>
+                <input type="password" name="Contraseña" id="Contraseña" minlength="8" required><br><br>
+
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Cuestionario sobre la página web</legend><br>
+                <label for="options">
+                    De los coches observados en la página web, ¿cuál de ellos te parece más interesante?
+                </label><br>
+                <select name="options" id="options" size="6" multiple>
+                    <option value="1">Skoda Spider B5</option>
+                    <option value="2">Gordon Murray Automotive T33</option>
+                    <option value="3">Alpine A522</option>
+                    <option value="4">Ferrari F1-75</option>
+                    <option value="5">Cupra</option>
+                    <option value="6">Tesla Roadster</option>
+                </select>
+                <br><br>
+
+                <label for="r_larga">
+                    ¿Por qué te ha parecido más interesante el coche que has escogido?
+                </label><br>
+                <textarea name="r_larga" id="r_larga" rows="10" cols="40"></textarea>
+                <br><br>
+
+                <p>
+                    Si tuvieras la oportunidad, ¿Te comprarías algún coche de los que aparece en la página?
+                </p>
+                <div class="respuesta">
+                    <input type="radio" name="sinoquizas" id="si" value="si">
+                    <label for="si">
+                        Sí
+                    </label><br>
+
+                    <input type="radio" name="sinoquizas" id="no" value="no">
+                    <label for="no">
+                        No
+                    </label><br>
+
+                    <input type="radio" name="sinoquizas" id="quizas" value="quizas">
+                    <label for="quizas">
+                        Quizas
+                    </label><br>
+                </div><br>
+
+                <label for="range">
+                    Indique su grado de satisfacción con la página (Siendo 0 nada satisfecho y 10 totalmente satisfecho):
+                </label><br>    
+                0<input type="range" name="range" id="range" min="0" max="10" step="1">10
+                <br><br>
+
+                <button type="submit" value="enviar" name="enviar" id="enviar">
+                    Enviar formulario.
+                </button>
+
+                <button type="reset" value="reset" name="reset" id="reset">
+                    Restablecer los valores del formulario.
+                </button>
+
+            </fieldset><br><br>
+            <a class="button" href="../index.html#Formulario">Volver</a><br><br>
+        </form>
+    </main>
+    <footer>
+        Alumno: Sergio Rodríguez Geniz<br>
+        Asignatura: Lenguajes de Marcas<br>
+        Cursos: 2021-2022
+    </footer>
+</body>
+</html>
