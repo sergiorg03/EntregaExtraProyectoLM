@@ -1,11 +1,12 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1906,34 +1907,19 @@ input, select, textarea {
 
 /* Table */
 
-	table {
-		width: 100%;
-		text-align: left;
-	}
+table{
+    width: 50%;
+    color: ghostwhite;
+    border-collapse: collapse;
+    display: inline-block;
+    background-color: #410202;
+}
 
-		table tbody tr:nth-child(2n+2) {
-			background: #f4f4f4;
-		}
-
-		table td {
-			padding: 0.5em 1em 0.5em 1em;
-		}
-
-		table th {
-			text-align: left;
-			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url("images/overlay.png");
-		}
-
-		table thead {
-			background: #444;
-			color: #fff;
-		}
-
-		table tfoot {
-			background: #eee;
-		}
+td{
+    border: 1.5px solid #ff1515;
+    text-align: center;
+    color: ghostwhite;
+}
 
 /* Button */
 
@@ -2632,3 +2618,80 @@ input, select, textarea {
 				}
 
 	}
+
+	.Texto, b{
+	color: #000000;
+	font-style: inherit;
+	font-size: medium;
+	text-align: center;
+}
+
+.Texto_blanco{
+	color: #ffffff;
+	font-style: inherit;
+	font-size: medium;
+	text-align: center;
+}
+
+h2, h3{
+	color: #000000;
+}
+
+#lista{
+	text-align: center;
+}
+
+#lista ol{
+	text-align: left;
+	display: inline-block;
+}
+
+#Foto_body{
+	background-image: url(../../images/fondo.jpg);
+}
+
+#foto_skoda{
+	background-image: url(../../images/Skoda_fondo.JPG);
+	background-attachment: fixed;
+}
+
+.Texto_blanco_titulos{
+	color: #ffffff;
+	font-style: inherit;
+	text-align: center;
+}
+
+.b_blanco{
+	color: ghostwhite;
+}
+
+#foto_gt{
+	background-image: url(../../images/gt_fondo.jpg);
+	background-attachment: fixed;
+}
+
+#foto_alpine{
+	background-image: url(../../images/foto_f1_al.jpg);
+	background-attachment: fixed;
+}
+
+#foto_ferrari{
+	background-image: url(../../images/foto_f1_fe1.jpg);
+	background-attachment: fixed;
+}
+
+#foto_rh{
+	background-image: url(../../images/cupra_fondo.jpg);
+	background-attachment: fixed;
+}
+
+#foto_tesla{
+	background-image: url(../../images/tesla_fondo.jpg);
+	background-attachment: fixed;
+}
+
+.footer1{
+	background-color: #410202;
+	text-align: center;
+	color: ghostwhite;
+}
