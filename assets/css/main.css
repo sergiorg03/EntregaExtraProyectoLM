@@ -66,13 +66,6 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-input, select, textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-}
-
 /* Basic */
 
 	html {
@@ -1883,7 +1876,7 @@ td{
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #9b0505;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1901,7 +1894,7 @@ td{
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #c50707;
 		}
 
 		input[type="button"]:active,
@@ -2175,7 +2168,7 @@ td{
 					#main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
-
+/*secciones*/
 			#main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
@@ -2183,20 +2176,19 @@ td{
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				border: 3px solid rgb(105, 0, 0);
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				border: 3px solid rgb(105, 0, 0);
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				border: 3px solid rgb(105, 0, 0);
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				border: 3px solid rgb(105, 0, 0);
 			}
 
 /* Wide */
@@ -2644,4 +2636,12 @@ h2, h3{
 	background-color: #410202;
 	text-align: center;
 	color: ghostwhite;
+}
+
+#footer_index{
+	font-size: medium;
+}
+
+#title_nav{
+	font-size: smaller;
 }
